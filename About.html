@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's Best University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images2/micro1.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        
+    </section>
+    <section class="About-us">
+        <div class="row">
+            <div class="About-col">
+                <h1>We Are The World's Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti architecto dolores aut veritatis tempore! Illum numquam, architecto ea unde repudiandae obcaecati similique quae consectetur voluptates, quidem possimus. Minima, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti architecto dolores aut veritatis tempore! Illum numquam, architecto ea unde repudiandae obcaecati similique quae consectetur voluptates, quidem possimus. Minima, ratione.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="About-col">
+                <img src="images2/about.jpg">
+            </div>
+        </div>
+    </section>
+   
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br/>Sapiente officia quibusdam reprehenderit, iste error ab magnam <br>Veniam ipsa quisquam sunt nesciunt tenetur quis in sed exercitationem harum eum nisi quam!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-tumblr"></i>
+        </div>
+        <p>&copy; 2022, Windlist</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right ="0";
+        }
+        function hideMenu() {
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>
